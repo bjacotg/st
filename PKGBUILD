@@ -13,6 +13,7 @@ source=(http://dl.suckless.org/st/$pkgname-$pkgver.tar.gz
         http://st.suckless.org/patches/solarized/st-solarized-dark-$pkgver.diff
         http://st.suckless.org/patches/scrollback/st-scrollback-$pkgver.diff
         config.h)
+
 md5sums=('SKIP'
          'SKIP'
          'SKIP'
