@@ -9,13 +9,11 @@ makedepends=('ncurses')
 url="http://st.suckless.org"
 
 source=(http://dl.suckless.org/st/$pkgname-$pkgver.tar.gz
-        http://st.suckless.org/patches/solarized/st-no_bold_colors-$pkgver.diff
         http://st.suckless.org/patches/solarized/st-solarized-dark-$pkgver.diff
         http://st.suckless.org/patches/scrollback/st-scrollback-$pkgver.diff
         config.h)
 
-md5sums=('SKIP'
-         'SKIP'
+sha256sums=('f7870d906ccc988926eef2cc98950a99cc78725b685e934c422c03c1234e6000'
          'SKIP'
          'SKIP'
          'SKIP')
