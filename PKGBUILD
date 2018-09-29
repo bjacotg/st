@@ -1,12 +1,12 @@
 # Maintainer: Bastien Jacot-Guillarmod bjacotg@gmail.com
 pkgname=st
 pkgver=0.7
-pkgrel=1
+pkgrel=2
 pkgdesc='A simple virtual terminal emulator for X.'
 arch=('i686' 'x86_64')
 license=('MIT')
 depends=('libxft')
-makedepends=('ncurses')
+makedepends=('ncurses', 'powerline-fonts')
 url="http://st.suckless.org"
 
 source=(http://dl.suckless.org/st/$pkgname-$pkgver.tar.gz
